@@ -1,0 +1,159 @@
+/* ===== BASE ===== */
+body {
+	background-color: #f0f0f5;
+	font-family: Arial, sans-serif;
+	font-size: 12pt;
+	text-align: left;
+	color: #222;
+}
+
+a {
+	color: #1a237e;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: 25px;
+}
+
+a:hover {
+	color: #ff9800;
+	text-decoration: underline;
+}
+
+a.right {
+	float: right;
+	margin-right: 25px;
+}
+
+strong {
+	font-weight: bold;
+	color: #1a237e;
+}
+
+hr {
+	border: none;
+	height: 2px;
+	background-color: #ccc;
+	margin: 20px 0;
+	clear: both;
+}
+
+/* ===== HEADER ===== */
+header {
+	background-color: #1a237e;
+	color: white;
+	padding: 20px;
+	border-bottom: 5px solid #ff9800;
+}
+
+header h1 {
+	color: #ffeb3b;
+	text-align: center;
+	font-size: xx-large;
+	text-shadow: 1px 1px 2px #3949ab;
+}
+
+/* ===== NAVIGATION ===== */
+nav {
+	background-color: rgba(255, 255, 255, 0.15);
+	padding: 15px;
+	margin: 15px 0;
+	clear: both;
+	border-radius: 5px;
+}
+
+nav ul {
+	list-style: none;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+nav a {
+	color: white;
+	background-color: #3949ab;
+	padding: 8px 15px;
+	text-decoration: none;
+	border-radius: 6px;
+}
+
+nav a:hover {
+	background-color: #ff9800;
+	text-decoration: underline;
+}
+
+/* ===== TITRES ===== */
+h1 {
+	margin-top: 80px;
+}
+
+h2 {
+	font-size: x-large;
+	margin: 20px 0 10px 0;
+	border-left: 4px solid #ff9800;
+	padding-left: 10px;
+	color: #1a237e;
+}
+
+h3 {
+	font-size: large;
+	color: #3949ab;
+	margin: 15px 0 8px 0;
+}
+
+/* ===== TEXTE ===== */
+p {
+	color: #222;
+	font-size: 12pt;
+	text-align: justify;
+	margin: 10px 0;
+	line-height: 1.5;
+}
+
+ul {
+	margin: 10px 0 10px 20px;
+}
+
+li {
+	margin: 5px 0;
+}
+
+/* ===== FOOTER ===== */
+footer {
+	background-color: #1a237e;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	margin-top: 30px;
+	clear: both;
+	border-top: 3px solid #ff9800;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+}
+
+/* ===== IDS ===== */
+#CYlogo {
+	float: left;
+	margin-left: 30px;
+	margin-top: 60px;
+	border: 2px solid #ff9800;
+}
+
+
+#jeu-logo {
+	float : right;
+	margin-right: 20px;
+}
+
+#lien-schema {
+	color: #ffeb3b;
+	text-decoration: underline;
+	font-weight: bold;
+}
+

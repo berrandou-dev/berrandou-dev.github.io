@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Mécanique du jeu</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<header>
+	<img id="CYlogo" src="images/logo.png" width="216" height="72" alt="Logo CY Tech" />
+	<img id="jeu-logo" src="images/logo-jeu.png" width="200" height="200" alt="Logo CY Tech" />
+	<h1>Mécanique du jeu</h1>
+	<nav>
+		<ul>
+			<li><a href="index.html">Accueil</a></li>
+			<li><a href="regles.html">Règles</a></li>
+			<li><a href="mecanique.html">Mécanique</a></li>
+			<li><a href="bots.html">IA</a></li>
+			<li><a href="interface.html">Interface</a></li>
+			<li><a href="conclusion.html">Conclusion</a></li>
+		</ul>
+	</nav>
+<hr>
+</header>
+
+<h2>Gestion des tours de jeu</h2>
+
+<p>Dans « Tu n’y peux rien », le déroulement d’une partie est organisé en tours successifs. 
+Chaque tour représente une séquence d’actions où tous les joueurs ont l’opportunité de jouer. 
+Le système n’est pas en temps réel : le programme garantit que chaque joueur agit uniquement
+lors de son tour et dans le bon ordre.</p>
+
+<p>Lors d’un tour, un joueur peut poser une combinaison de cartes valide selon les règles du jeu. 
+Les autres joueurs doivent ensuite répondre en posant une combinaison du même type et du même
+nombre de cartes, sauf s’ils utilisent une carte spéciale ou une bombe.</p>
+
+<p>À la fin de chaque tour complet, le programme distribue automatiquement une carte à chaque
+joueur afin de maintenir un nombre minimal de cartes dans la main et de garantir la continuité
+du jeu.</p>
+
+<h3>Ordre de jeu</h3>
+
+<p>Le joueur qui commence la partie est déterminé automatiquement par le logiciel. 
+La règle choisie est simple et équitable : le joueur possédant la carte de plus petite valeur parmi
+toutes les mains commence le jeu. À partir de ce joueur, le tour se poursuit dans le sens horaire
+jusqu’à ce que tous les participants aient joué.</p>
+
+<h3>Validation des coups</h3>
+
+<p>Pour assurer l’équité et la cohérence du jeu, le programme vérifie automatiquement chaque
+coup joué par les participants. Cette validation se fait selon plusieurs critères :</p>
+
+<ul>
+	<li>Le nombre de cartes posées doit correspondre au type de combinaison en cours.</li>
+	<li>La valeur des cartes doit être supérieure à celle de la combinaison précédente,
+	sauf lorsqu’une carte spéciale ou une bombe est utilisée.</li>
+	<li>Les règles spécifiques, telles que l’utilisation du 2 ou des jokers, doivent être respectées.</li>
+</ul>
+
+<p>Si un joueur tente de poser une combinaison invalide, le programme empêche le coup et informe
+le joueur que son action n’est pas autorisée, garantissant ainsi une expérience de jeu claire
+et sans ambiguïté.</p>
+
+<h3>Stratégie et dynamique</h3>
+
+<p>Cette mécanique de tours permet également de mettre en place des stratégies pour les joueurs
+et les bots. Chaque décision influence les coups suivants et la progression de la partie, 
+rendant le jeu dynamique et imprévisible.</p>
+
+<a class="right" href="bots.html">Page suivante</a>
+
+<footer>
+<hr>
+<p>Mini-site réalisé dans le cadre d’un projet – L2 Informatique</p>
+<p>© 2026 – KHODJA Laiza, BOUATMANE Nesrine, BERRANDOU Nassim</p>
+</footer>
+</body>
+</html>
+
