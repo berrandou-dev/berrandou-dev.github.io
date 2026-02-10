@@ -140,7 +140,7 @@ footer p {
 /* ===== IDS ===== */
 #CYlogo {
 	float: left;
-	margin-left: 30px;
+	margin-left: 40px;
 	margin-top: 60px;
 	border: 2px solid #ff9800;
 }
@@ -148,7 +148,7 @@ footer p {
 
 #jeu-logo {
 	float : right;
-	margin-right: 20px;
+	margin-right: 40px;
 }
 
 #lien-schema {
