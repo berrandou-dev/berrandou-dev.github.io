@@ -26,7 +26,17 @@
 <hr/>
 </header>
 
-<h2>Gestion des tours de jeu</h2>
+<aside id="menu-secondaire">
+	<h2 id="sommaire">Sommaire</h2>
+	<ul>
+		<li><a href="#tours">Gestion des tours</a></li>
+		<li><a href="#ordre">Ordre de jeu</a></li>
+		<li><a href="#validation">Validation des coups</a></li>
+		<li><a href="#strategie">Stratégie et dynamique</a></li>
+	</ul>
+</aside>
+
+<h2 id="tours">Gestion des tours de jeu</h2>
 
 <p>Dans « Tu n’y peux rien », le déroulement d’une partie est organisé en tours successifs. 
 Chaque tour représente une séquence d’actions où tous les joueurs ont l’opportunité de jouer. 
@@ -41,14 +51,15 @@ nombre de cartes, sauf s’ils utilisent une carte spéciale ou une bombe.</p>
 joueur afin de maintenir un nombre minimal de cartes dans la main et de garantir la continuité
 du jeu.</p>
 
-<h3>Ordre de jeu</h3>
+<h3 id="ordre">Ordre de jeu</h3>
 
 <p>Le joueur qui commence la partie est déterminé automatiquement par le logiciel. 
 La règle choisie est simple et équitable : le joueur possédant la carte de plus petite valeur parmi
 toutes les mains commence le jeu. À partir de ce joueur, le tour se poursuit dans le sens horaire
 jusqu’à ce que tous les participants aient joué.</p>
 
-<h3>Validation des coups</h3>
+
+<h3 id="validation">Validation des coups</h3>
 
 <p>Pour assurer l’équité et la cohérence du jeu, le programme vérifie automatiquement chaque
 coup joué par les participants. Cette validation se fait selon plusieurs critères :</p>
@@ -64,15 +75,14 @@ coup joué par les participants. Cette validation se fait selon plusieurs critè
 le joueur que son action n’est pas autorisée, garantissant ainsi une expérience de jeu claire
 et sans ambiguïté.</p>
 
-<h3>Stratégie et dynamique</h3>
+<h3 id="strategie">Stratégie et dynamique</h3>
 
 <p>Cette mécanique de tours permet également de mettre en place des stratégies pour les joueurs
 et les bots. Chaque décision influence les coups suivants et la progression de la partie, 
 rendant le jeu dynamique et imprévisible.</p>
 
-<a class="right" href="bots.html">Page suivante</a>
-<a href="#">Retour en haut</a>
-
+<a class="right back-links" href="index.html">Retour à l’accueil</a>
+<a class="back-links" href="#">Retour en haut</a>
 <footer>
 <hr/>
 <p>

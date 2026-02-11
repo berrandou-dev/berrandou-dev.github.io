@@ -151,9 +151,49 @@ footer p {
 	margin-right: 40px;
 }
 
-#lien-schema {
+#sommaire{
+	color: #ffeb3b;
+}
+
+
+/* ===== MENU SECONDAIRE ===== */
+#menu-secondaire {
+	position: fixed;
+	top: 180px;
+	left: 10px;
+	background-color: #3949ab;
+	padding: 10px;
+	border-radius: 8px;
+}
+
+#menu-secondaire ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu-secondaire li {
+	margin: 8px 0;
+}
+
+#menu-secondaire a {
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+#menu-secondaire a:hover {
 	color: #ffeb3b;
 	text-decoration: underline;
-	font-weight: bold;
 }
+
+/* ===== ANNEXE ===== */
+.back-links {
+    display: inline-block;
+    margin: 25px 0;
+    margin-left: 25px;
+    font-size: 18pt;
+}
+
+
 
